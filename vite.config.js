@@ -9,4 +9,9 @@ export default defineConfig({
       plugins: [autoprefixer()],
     },
   },
+  base: '/rise-creative-react-redux', // встановлює відносний шлях
+  build: {
+    outDir: 'dist', // вихідна директорія
+    assetsDir: 'assets', // директорія для активів (CSS, JS)
+  }
 });
